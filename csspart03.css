@@ -16,6 +16,7 @@
     font-family: fantasy;
     font: outline;
     font-size: 150%;
+    border-style: groove;
 }
 .center {
     text-align: center;
@@ -23,4 +24,5 @@
 }
 body {
     background-color: aquamarine;
+    border-style: dotted;
 }
