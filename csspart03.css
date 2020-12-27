@@ -10,7 +10,7 @@
 #para2 {
     color: crimson;
     text-align: left;
-    margin: 20px;
+    margin:50px ;
     padding: 20px;
     background-color: rgb(31, 29, 29);
     font-family: fantasy;
@@ -21,6 +21,8 @@
     border-color: darkgoldenrod;
     border-top-style: dotted;
     border-bottom-style: dotted;
+    border-radius: 10px;
+
 }
 .center {
     text-align: center;
@@ -33,4 +35,5 @@ body {
     border-color: brown;
     border-right-style: solid;
     border-left-style: solid;
+    border-radius: 5px;
 }
