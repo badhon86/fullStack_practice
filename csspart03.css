@@ -19,6 +19,8 @@
     border-style: groove;
     border-width: 5px;
     border-color: darkgoldenrod;
+    border-top-style: dotted;
+    border-bottom-style: dotted;
 }
 .center {
     text-align: center;
@@ -29,4 +31,6 @@ body {
     border-style: dotted;
     border-width: thick;
     border-color: brown;
+    border-right-style: solid;
+    border-left-style: solid;
 }
