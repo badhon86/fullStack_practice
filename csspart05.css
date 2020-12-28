@@ -35,7 +35,7 @@ a {
 table {
     border-collapse: collapse;
     width: 100%;
-  }
+}
   
   th, td {
     text-align: left;
@@ -48,3 +48,16 @@ table {
   }
   
   tr:nth-child(even) {background-color: #f2f2f2;}
+div.static{
+    color: darkslateblue;
+    border: 1px solid gray;
+    padding: 40px;
+    margin: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    letter-spacing: 3px;
+    position: static;
+    border: 3px solid #73AD21;
+    text-size-adjust: auto;
+    text-transform: capitalize;
+    text-align: justify;
+}
