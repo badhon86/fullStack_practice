@@ -21,7 +21,12 @@ a {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-
+.nav li{
+    display: inline-block;
+    font-size: 15px;
+    padding: 5px;
+    margin: 0px;
+  }
 
 #badhon p.transformation,li{
     text-indent: 50px;
@@ -41,11 +46,7 @@ table {
     text-align: left;
     padding: 8px;
   }
-  li{
-      margin: 25px;
-      background-color: darkolivegreen;
-      padding: 10px;
-  }
+  
   
   tr:nth-child(even) {background-color: #f2f2f2;}
 div.static{
@@ -84,4 +85,9 @@ div.static{
     content: "";
     clear: both;
     display: table;
+  }
+
+  div ~ p {
+    background-color: yellow;
+    margin: 20px;
   }
