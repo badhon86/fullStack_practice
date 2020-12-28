@@ -42,7 +42,7 @@ table {
     padding: 8px;
   }
   li{
-      margin: 40px;
+      margin: 25px;
       background-color: darkolivegreen;
       padding: 10px;
   }
@@ -61,3 +61,27 @@ div.static{
     text-transform: capitalize;
     text-align: justify;
 }
+#overflowTest{
+    background: #4CAF50;
+    color: white;
+    padding: 15px;
+    width: 92%;
+    height: 100px;
+    overflow: scroll;
+    border: 1px solid #ccc;
+}
+* {
+    box-sizing: border-box;
+  }
+  
+  .box {
+    float: left;
+    width: 30c.33%;
+    padding: 20px;
+  }
+  
+  .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
