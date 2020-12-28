@@ -23,12 +23,14 @@ a {
 
 
 
-#badhon p.transformation{
+#badhon p.transformation,li{
     text-indent: 50px;
     text-align: justify;
     letter-spacing: 3px;
     text-transform: capitalize;
     color: rgb(9, 87, 6);
+    display: inline;
+    margin: 0px;
 }
 table {
     border-collapse: collapse;
@@ -38,6 +40,11 @@ table {
   th, td {
     text-align: left;
     padding: 8px;
+  }
+  li{
+      margin: 40px;
+      background-color: darkolivegreen;
+      padding: 10px;
   }
   
   tr:nth-child(even) {background-color: #f2f2f2;}
