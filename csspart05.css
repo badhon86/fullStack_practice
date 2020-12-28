@@ -20,13 +20,19 @@ a {
     color: #008CBA;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-
-.nav li{
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.nav li a{
     display: inline-block;
     font-size: 15px;
     padding: 5px;
     margin: 0px;
+    
   }
+  
 
 #badhon p.transformation,li{
     text-indent: 50px;
@@ -87,7 +93,21 @@ div.static{
     display: table;
   }
 
-  div ~ p {
+  div ~ p::first-line {
     background-color: yellow;
     margin: 20px;
+    color: deeppink;
   }
+  a:link{
+    color: rgb(88, 14, 14);
+  }
+  a:visited {
+    color: green;
+  }
+  a:hover{
+    color: deeppink;
+  }
+  a:active {
+    color: blue;
+  }
+ 
