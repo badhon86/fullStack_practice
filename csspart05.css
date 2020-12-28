@@ -10,15 +10,10 @@ h1 {
     text-align: center;
     text-transform: uppercase;
     color: #4CAF50;
+    font-family:"Sofia", sans-serif;
 }
 
-p {
-    text-indent: 50px;
-    text-align: justify;
-    letter-spacing: 3px;
-    /* white-space: nowrap; */
 
-}
 
 a {
     text-decoration: none;
@@ -26,6 +21,23 @@ a {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-p.transformation{
+
+
+#badhon p.transformation{
+    text-indent: 50px;
+    text-align: justify;
+    letter-spacing: 3px;
     text-transform: capitalize;
+    color: rgb(9, 87, 6);
 }
+table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th, td {
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {background-color: #f2f2f2;}
