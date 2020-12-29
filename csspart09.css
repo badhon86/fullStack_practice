@@ -17,12 +17,14 @@
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     text-transform: uppercase;
     letter-spacing: 3px;
+    text-align: justify;
   }
   
   .header {
     background-color: #01131a;
     color: #b80a0a;
     padding: 15px;
+    letter-spacing: 4px;
   }
   
   .menu ul {
