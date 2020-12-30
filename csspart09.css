@@ -56,10 +56,10 @@
   }
   
   .footer {
-    background-color: #01131a;
-    color: #b80a0a;
+    background-color: rgb(3, 46, 7);
+    color: #cc1111;
     text-align: center;
-    font-size: 15px;
+    letter-spacing: 4px;
     padding: 13px;
     
   }
@@ -103,7 +103,7 @@
   .topnav a {
     float: left;
     display: block;
-    color: #8f0b0b;
+    color: #cc1111;
     text-align: center;
     padding: 10px 15px;
     text-decoration: none;
@@ -112,8 +112,8 @@
     font-size: 15px;
   }
   .topnav a:hover {
-    background-color: rgb(122, 14, 14);
-    color: rgb(7, 87, 20);
+    background-color: #cc1111;
+    color:  rgb(3, 46, 7);
   }
 
   .topnav {
