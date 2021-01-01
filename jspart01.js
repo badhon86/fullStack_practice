@@ -30,3 +30,8 @@ document.getElementById("demo6").innerHTML = myfunction2(123,321);
 
 var person = {fullName:"badhon kumar sarkar", age:"23",gender:"male"}
 document.getElementById("dem").innerHTML = "my name is"+person.fullName+"and my"+person.age+"and i am a"+person.gender;
+
+function myFunction() {
+    var str = "     RUN BITCH!     ";
+    alert(str.trim());
+  }
