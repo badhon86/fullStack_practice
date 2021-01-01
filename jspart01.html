@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
     <head>
         <title>FULL STACK</title>
         <link rel="stylesheet" type="text/css" href="jspart01.css"
@@ -10,20 +10,35 @@
     <div class="header">
         <h1>FULL-STACK javascript practice</h1>
         <div class="topnav col-12 col-s-12 menu">
-            <a href="#" style="float:left">home</a>
-            <a href="#" style="float:right">HTML</a>
-            <a href="#" style="float:right">CSS</a>
-            <a href="#" style="float:right">javascript</a>
-            <a href="#" style="float:right">jquery</a>
-            <a href="#" style="float:right">Ajax</a>
-            <a href="#" style="float:right">Bootstrap</a>
+            <a href="#" style="float:left"><b>home</b></a>
+            <a href="#" style="float:right"><b>HTML</b></a>
+            <a href="#" style="float:right"><b>CSS</b></a>
+            <a href="#" style="float:right"><b>javascript</b></a>
+            <a href="#" style="float:right"><b>jquery</b></a>
+            <a href="#" style="float:right"><b>Ajax</b></a>
+            <a href="#" style="float:right"><b>Bootstrap</b></a>
         </div>
     </div>
 
     <div class="row"> 
-        <br>
-          
+        
+            <div class="bra">
+                <p><b>JavaScript can do a lot of things</b></p><br>
+                <button class="button" onclick="document.getElementById('myImage').src='B.jpg'"><b>ভিতরে</b></button>
+                <img id="myImage" src="B.jpg" style="width:300px">
+                <button class="button" onclick="document.getElementById('myImage').src='C.jpg'"><b>বাহিরে</b></button>
+                        </div>
+
+            <div class="col-4 col-s-3">
+                <p>
+                    <p id="demo"></p>
+                    <script src="jspart01.js"></script>
+                </p>
+            </div>
+        </div>
+       
     </div>  
+    
 
     <div class="footer">
      <p>all rights reserves | badhon sarkar</p>

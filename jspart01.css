@@ -18,7 +18,6 @@
   html {
     font-family: Tahoma, Verdana, sans-serif;
     text-transform: uppercase; 
-   
     letter-spacing: 3px;
     text-align: justify;
   }
@@ -29,6 +28,14 @@
     padding: 20px;
     letter-spacing: 4px;
     font-size: 15px;
+  }
+  .bra {
+      color: maroon;
+      padding: 15px;
+      margin: 15px;
+      width: 50%;
+      font-size: 13px;
+      text-align: center;
   }
   
   .menu ul {
@@ -48,6 +55,17 @@
   .menu li:hover {
     background-color: #8d1010;
     color: black;
+  }
+  .button {
+    padding: 18px;
+    margin-bottom: 7px;
+    background-color: #01131a;
+    color: #b80a0a;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);   
+  }
+  .button:hover{
+    background-color: #8d1010;
+    color: black;   
   }
   
   .aside {
