@@ -11,14 +11,19 @@ document.getElementById("demo3").innerHTML =
 "The value of z is " + z + ".";  
 
 
-function myfunction(a,b) {
-    return a+b;   
+function myfunction() {
+    document.getElementById("demo4").innerHTML = "ball";
+      
 }
-document.getElementById("demo4").innerHTML = "ball";
-document.getElementById("demo4").innerHTML =(123,432);
 
 var lastname,firstname;
 lastname="badhon";
 firstname="sarkar";
 document.getElementById("demo5").innerHTML=firstname;
 document.getElementById("demo5").innerHTML=firstname+" "+lastname;
+
+function myfunction2(a,b) {
+   
+   return a+b;   
+}
+document.getElementById("demo6").innerHTML = myfunction2(a,b);
