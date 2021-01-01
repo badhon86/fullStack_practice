@@ -11,10 +11,11 @@ document.getElementById("demo3").innerHTML =
 "The value of z is " + z + ".";  
 
 
-function myfunction() {
-    document.getElementById("demo4").innerHTML = "ball";
-      
+function myfunction(a,b) {
+    return a+b;   
 }
+document.getElementById("demo4").innerHTML = "ball";
+document.getElementById("demo4").innerHTML = "123"
 
 var lastname,firstname;
 lastname="badhon";
