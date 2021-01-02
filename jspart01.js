@@ -42,3 +42,12 @@ document.getElementById("demo7").innerHTML=j.toString();
 var cars = ["waltonBike", "Volvo", "BMW"];
 document.getElementById("demo8").innerHTML = cars[0];
 document.getElementById("demo8").innerHTML = cars.toString();
+
+var txt = "";
+var numbers = [45, 4, 9, 16, 25];
+numbers.forEach(myFunction);
+document.getElementById("demo").innerHTML = txt;
+
+function myFunction(value, index, array) {
+  txt = txt + value + "<br>"; 
+}
