@@ -49,5 +49,5 @@ numbers.forEach(myFunction);
 document.getElementById("demo9").innerHTML = txt;
 
 function myFunction(value, index, array) {
-  txt = txt + value + index+"<br>"; 
+  txt = txt + value +"<br>"; 
 }
