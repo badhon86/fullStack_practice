@@ -46,8 +46,8 @@ document.getElementById("demo8").innerHTML = cars.toString();
 var txt = "";
 var numbers = [45, 4, 9, 16, 25];
 numbers.forEach(myFunction);
-document.getElementById("demo").innerHTML = txt;
+document.getElementById("demo9").innerHTML = txt;
 
 function myFunction(value, index, array) {
-  txt = txt + value + "<br>"; 
+  txt = txt + value + index+"<br>"; 
 }
