@@ -38,3 +38,6 @@ function myFunction() {
 
 var j = 231;
 document.getElementById("demo7").innerHTML=j.toString();
+
+var cars = ["waltonBike", "Volvo", "BMW"];
+document.getElementById("demo8").innerHTML = cars[0];
