@@ -35,3 +35,6 @@ function myFunction() {
     var str = "     RUN BITCH!     ";
     alert(str.trim());
   }
+
+var j = 231;
+document.getElementById("demo7").innerHTML=j.toString();
