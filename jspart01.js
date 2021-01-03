@@ -68,7 +68,6 @@ if (new Date().getHours() < 18) {
   document.getElementById("demo11").innerHTML = "Good day!";
 }
 
-
 function myFunction2() {
   var greeting;
   var time = new Date().getHours();
