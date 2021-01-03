@@ -51,3 +51,8 @@ document.getElementById("demo9").innerHTML = txt;
 function myFnction(value, index, array) {
   txt = txt + value +"<br>"; 
 }
+
+
+function funmath(min, max) {
+  return Math.floor(Math.random() * (max - min)) + min;
+}
