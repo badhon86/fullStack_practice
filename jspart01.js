@@ -104,7 +104,7 @@ document.getElementById("demo13").innerHTML ="today is "+ day;
 var text = "";
 var i;
 for (i = 0; i < 10; i++) {
-  if (i === 3) { break; }
+  if (i === 7) { break; }
   text += "The number is " + i + "<br>";
 }
 document.getElementById("demo14").innerHTML = text;
