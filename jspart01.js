@@ -80,3 +80,23 @@ function myFunction2() {
   }
   document.getElementById("demo12").innerHTML = greeting;
 }
+
+var day;
+switch (new Date().getDay()) {
+  case 0: day = "Sunday";
+  break;
+  case 1: day = "Monday";
+  break;
+  case 2: day = "Tuesday";
+  break;
+  case 3: day = "wednesday";
+  break;
+  break;
+  case 4: day = "thurday";
+  break;
+  case 5: day = "friday";
+  break;
+  case 6: day = "saturday";
+  break;
+}
+document.getElementById("demo13").innerHTML ="today is "+ day;
