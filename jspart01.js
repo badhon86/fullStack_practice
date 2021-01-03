@@ -100,3 +100,11 @@ switch (new Date().getDay()) {
   break;
 }
 document.getElementById("demo13").innerHTML ="today is "+ day;
+
+var text = "";
+var i;
+for (i = 0; i < 10; i++) {
+  if (i === 3) { break; }
+  text += "The number is " + i + "<br>";
+}
+document.getElementById("demo14").innerHTML = text;
