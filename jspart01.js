@@ -56,3 +56,10 @@ function myFnction(value, index, array) {
 function funmath(min, max) {
   return Math.floor(Math.random() * (max - min)) + min;
 }
+
+function myfun(){
+  var age,voteable;
+  age = document.getElementById("age").value;
+  voteable = (age < 18) ? "Too young":"Old enough";
+  document.getElementById("de10").innerHTML = voteable + " to vote.";
+}
