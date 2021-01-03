@@ -63,3 +63,21 @@ function myfun(){
   voteable = (age < 18) ? "Too young":"Old enough";
   document.getElementById("de10").innerHTML = voteable + " to vote.";
 }
+
+if (new Date().getHours() < 18) {
+  document.getElementById("demo11").innerHTML = "Good day!";
+}
+
+
+function myFunction2() {
+  var greeting;
+  var time = new Date().getHours();
+  if (time < 10) {
+    greeting = "Good morning";
+  } else if (time < 20) {
+    greeting = "bokachoda";
+  } else {
+    greeting = "Good evening";
+  }
+  document.getElementById("demo12").innerHTML = greeting;
+}
