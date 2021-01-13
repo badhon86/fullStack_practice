@@ -11,7 +11,31 @@
 </head>
     <body>
 
-        <nav class="navbar navbar-expand-sm badge-success navbar-dark text-uppercase fixed-top">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark text-uppercase fixed-top">
+            <a class="navbar-brand" href="#">
+                <img src="bad.png" alt="logo" style="width:40px;">
+            </a>
+          
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+              <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link disabled" href="#">Disabled</a>
+                </li>
+              </ul>
+              <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+              </form>
+            </div>
+        </nav>
+
+        <!-- <nav class="navbar navbar-expand-sm bg-navbar bg-success navbar-dark text-uppercase fixed-top">
             <a class="navbar-brand" href="#">
                 <img src="bad.png" alt="logo" style="width:40px;">
             </a>
@@ -35,10 +59,13 @@
                     <div class="input-group-prepend">
                         <span class="input-group-text"> <img src="se.png" alt="logo" style="width:20px;"></span>
                     </div>
-                    <input type="text" class="form-control" placeholder="search">
+                    <div class="topnav-right">
+                        <input type="text" class="form-control" placeholder="search">
+                    </div>
+                   
                 </div>
             </form>
-        </nav>
+        </nav> -->
         
        <br><br><br>
 
@@ -46,10 +73,11 @@
             <h3>Basic Navbar Example</h3>
             <p>A navigation bar is a navigation header that is placed at the top of the page.</p>
             <p>The navbar-expand-xl|lg|md|sm class determines when the navbar should stack vertically (on extra large, large, medium or small screens).</p>
+            <p class="text-right">Right-aligned text.</p>  
         </div>
 
-        <nav class="navbar navbar-expand-sm bg-success navbar-dark fixed-bottom">
-            <p class="text-white text-center"><b>ALL RIGHT RESERVED | BADHON SARKAR</b></p>
+        <nav class="navbar navbar-expand-sm bg-success navbar-dark fixed-bottom text-right">
+            <p class="text-white text-right"><b>ALL RIGHT RESERVED | BADHON SARKAR</b></p>
         </nav>
 
     </body>
